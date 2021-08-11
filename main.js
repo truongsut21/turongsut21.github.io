@@ -21,7 +21,7 @@ function yes() {
  tyLe = tyLe +10;
  document.getElementById('phanTram').innerHTML = "em chắc chứ " + tyLe + " %";
  if(tyLe == 100) {
-    window.location.assign("http://127.0.0.1:5501/CauHoi/indexCauHoi.html")
+    window.location.assign("https://truongsut21.github.io/turongsut21.github.io/CauHoi/indexCauHoi.html")
  }
  
 }
