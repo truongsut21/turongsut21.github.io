@@ -21,7 +21,7 @@ function yes() {
  tyLe = tyLe +10;
  document.getElementById('phanTram').innerHTML = "em chắc chứ " + tyLe + " %";
  if(tyLe == 100) {
-    window.location.assign("CauHoi/indexCauHoi.html12")
+    window.location.assign("CauHoi/indexCauHoi.html")
  }
  
 }
