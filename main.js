@@ -2,7 +2,8 @@
 
 alert("chuc em yêu vui vẻ nà :3")
 setTimeout(function(){document.getElementById('cl1').setAttribute('class', 'btnClick1')}, 3000);
-
+var x = document.getElementById("myAudio").autoplay;
+  document.getElementById("demo").innerHTML = x;
 function clickStar() {
     alert("Anh có điều này muốn nói với em... thật ra anh thích từ lâu lắm rồi, anh cũng rất muốn trở thành người yêu của em, mãi cố gắng phấn đấu dành cho em điều hp nhất");
     document.getElementById('cl1').setAttribute("class", "none");
